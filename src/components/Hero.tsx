@@ -47,9 +47,19 @@ export default function Hero() {
             full-stack platform — I&apos;ll turn it into something fast, clean,
             and ready to launch.
           </p>
-          <Link href="#hire-me" className={styles.cta}>
-            Let&apos;s Work Together
-          </Link>
+          <div className={styles.ctaGroup}>
+            <Link href="#hire-me" className={styles.cta}>
+              Hire me
+            </Link>
+            <a
+              href="https://wa.me/62XXXXXXXXXX?text=Hi%20Erwin%2C%20I%27d%20like%20to%20discuss%20a%20project"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.ctaSecondary}
+            >
+              Chat on WhatsApp
+            </a>
+          </div>
         </div>
 
         <div className={styles.right}>

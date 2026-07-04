@@ -94,6 +94,32 @@
   opacity: 0.85;
 }
 
+.ctaGroup {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.ctaSecondary {
+  background-color: transparent;
+  color: var(--text-primary);
+  border: 1.5px solid var(--accent);
+  padding: 0.875rem 2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.ctaSecondary:hover {
+  background-color: var(--accent);
+  color: #ffffff;
+}
+
 .right {
   flex: 1;
   display: flex;
@@ -148,5 +174,16 @@
   .codeBlock pre {
     font-size: 0.75rem;
     overflow-x: auto;
+  }
+
+  .ctaGroup {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+  }
+
+  .ctaSecondary,
+  .cta {
+    text-align: center;
   }
 }

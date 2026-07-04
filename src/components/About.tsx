@@ -59,68 +59,6 @@ export default function About() {
           </div>
         </div>
       </section>
-
-      {/* Contact strip */}
-      <div id="hire-me" className={styles.contact}>
-        <p className={styles.contactLabel}>CONTACT</p>
-        <h3 className={styles.contactHeading}>
-          Interested in working together?
-        </h3>
-        <p className={styles.contactSub}>
-          I&apos;m currently open for freelance work.
-          <br />
-          Let&apos;s build something great.
-        </p>
-        <div className={styles.contactCards}>
-          <a
-            href="mailto:erwinsputra757@email.com"
-            className={styles.contactCard}
-          >
-            <div className={styles.contactCardIconWrapper}>
-              <FaEnvelope size={22} color="var(--accent)" />
-            </div>
-            <span className={styles.contactCardLabel}>EMAIL</span>
-            <span className={styles.contactCardValue}>
-              erwinsputra757@email.com
-            </span>
-            <span className={styles.contactCardAction}>Send an email →</span>
-          </a>
-          <Link
-            href="https://www.linkedin.com/in/erwin-saputra-13a846218"
-            className={styles.contactCard}
-            target="_blank"
-          >
-            <div className={styles.contactCardIconWrapper}>
-              <FaLinkedin size={22} color="var(--accent)" />
-            </div>
-            <span className={styles.contactCardLabel}>LINKEDIN</span>
-            <span className={styles.contactCardValue}>Erwin Saputra</span>
-            <span className={styles.contactCardAction}>View profile →</span>
-          </Link>
-          <Link
-            href="https://github.com/ErwinSputra"
-            className={styles.contactCard}
-            target="_blank"
-          >
-            <div className={styles.contactCardIconWrapper}>
-              <FaGithub size={22} color="var(--accent)" />
-            </div>
-            <span className={styles.contactCardLabel}>GITHUB</span>
-            <span className={styles.contactCardValue}>
-              github.com/ErwinSputra
-            </span>
-            <span className={styles.contactCardAction}>View profile →</span>
-          </Link>
-        </div>
-        <a href="mailto:erwinsputra757@email.com" className={styles.cta}>
-          <FiSend size={20} />
-          Let&apos;s Work Together
-        </a>
-        <p className={styles.contactReply}>
-          <FiCheckCircle size={15} color="var(--accent)" />I typically reply
-          within 24 hours
-        </p>
-      </div>
     </div>
   );
 }
