@@ -48,11 +48,11 @@ export default function Hero() {
             and ready to launch.
           </p>
           <div className={styles.ctaGroup}>
-            <Link href="#hire-me" className={styles.cta}>
+            <Link href="#contact-me" className={styles.cta}>
               Hire me
             </Link>
             <a
-              href="https://wa.me/62XXXXXXXXXX?text=Hi%20Erwin%2C%20I%27d%20like%20to%20discuss%20a%20project"
+              href="https://wa.me/62895347838644?text=Hi%20Erwin%2C%20I%27d%20like%20to%20discuss%20a%20project"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.ctaSecondary}
