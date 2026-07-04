@@ -6,8 +6,8 @@ import { FiSend, FiCheckCircle } from "react-icons/fi";
 
 const values = [
   { icon: "→", label: "Fast Delivery" },
-  { icon: "✦", label: "Clean Code" },
   { icon: "◎", label: "Problem Solver" },
+  { icon: "✦", label: "Clean Code" },
   { icon: "↗", label: "Always Learning" },
 ];
 
