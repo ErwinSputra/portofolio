@@ -1,6 +1,14 @@
 .wrapper {
   position: relative;
   overflow: hidden;
+  padding-bottom: 0;
+}
+
+.wrapper::after {
+  content: "";
+  display: block;
+  height: 80px;
+  background: linear-gradient(to bottom, transparent, rgba(6, 78, 59, 0.15));
 }
 
 .bgShapes {
@@ -36,14 +44,12 @@
 }
 
 .section {
-  position: relative;
-  z-index: 1; /* keeps content above shapes */
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   gap: 4rem;
-  padding: 5rem 6rem;
+  padding: 4rem 6rem;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -54,6 +60,7 @@
   align-items: flex-start;
   text-align: left;
   flex: 1;
+  max-width: 480px; /* prevents text from bleeding into code block */
 }
 
 .heading {
