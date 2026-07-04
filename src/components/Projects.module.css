@@ -197,3 +197,15 @@
   bottom: -150px;
   left: -100px;
 }
+
+@media (max-width: 768px) {
+  .section {
+    padding: 0 1.5rem;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .placeholder {
+    min-height: 150px;
+  }
+}

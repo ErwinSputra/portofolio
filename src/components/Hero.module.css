@@ -129,3 +129,24 @@
 .comment {
   color: #64748b;
 }
+
+@media (max-width: 768px) {
+  .section {
+    flex-direction: column;
+    padding: 3rem 1.5rem 0 1.5rem;
+    gap: 2rem;
+  }
+  .heading {
+    font-size: 2rem;
+  }
+  .right {
+    width: 100%;
+  }
+  .codeBlock {
+    width: 100%;
+  }
+  .codeBlock pre {
+    font-size: 0.75rem;
+    overflow-x: auto;
+  }
+}

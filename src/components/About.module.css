@@ -229,3 +229,37 @@
   align-items: center;
   gap: 0.4rem;
 }
+
+@media (max-width: 768px) {
+  .section {
+    flex-direction: column;
+    padding: 3rem 1.5rem;
+    gap: 2rem;
+  }
+  .right {
+    width: 100%;
+  }
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  .heading {
+    font-size: 2rem;
+  }
+  .values {
+    flex-wrap: wrap;
+  }
+  .contact {
+    padding: 3rem 1.5rem;
+  }
+  .contactCards {
+    flex-direction: column;
+  }
+  .contactHeading {
+    font-size: 1.75rem;
+  }
+  .contactLinks {
+    flex-direction: column;
+    align-items: center;
+  }
+}

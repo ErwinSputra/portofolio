@@ -36,3 +36,15 @@
 .link:hover {
   color: var(--accent);
 }
+
+@media (max-width: 768px) {
+  .nav {
+    padding: 1rem 1.5rem;
+  }
+  .links {
+    gap: 1rem;
+  }
+  .link {
+    font-size: 0.85rem;
+  }
+}
