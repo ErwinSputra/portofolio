@@ -4,7 +4,32 @@
   overflow: hidden;
 }
 
+.bgShapes {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.shape1 {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  top: -150px;
+  left: -180px;
+}
+
+.shape2 {
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  bottom: -200px;
+  right: -120px;
+}
+
 .section {
+  position: relative;
+  z-index: 1;
   display: flex;
   gap: 4rem;
   padding: 6rem;
