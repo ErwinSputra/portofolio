@@ -1,0 +1,231 @@
+.wrapper {
+  background: var(--bg);
+  position: relative;
+  overflow: hidden;
+}
+
+.section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 6rem 5rem 6rem;
+  display: flex;
+  flex-direction: row;
+  gap: 6rem;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.left {
+  flex: 1.2;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.label {
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  color: var(--accent);
+  text-transform: uppercase;
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+  margin: 0;
+}
+
+.description {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin: 0;
+}
+
+.values {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.valueCard {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--bg-subtle);
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 0.6rem 1rem;
+  transition: border-color 0.2s ease;
+}
+
+.valueCard:hover {
+  border-color: var(--accent);
+}
+
+.valueIcon {
+  font-size: 1rem;
+}
+
+.valueLabel {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.imageWrapper {
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e7eb;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+/* Contact strip */
+.contact {
+  background: var(--bg-subtle);
+  border-top: 1px solid #e5e7eb;
+  padding: 3rem 6rem 5rem 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.contactLabel {
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  color: var(--accent);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.contactHeading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.03em;
+  margin: 0;
+}
+
+.contactSub {
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.contactCards {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 0.5rem;
+  width: 100%;
+  max-width: 900px;
+}
+
+.contactCard {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  background: var(--bg);
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 2rem 1.5rem;
+  text-decoration: none;
+  transition:
+    border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.contactCard:hover {
+  border-color: var(--accent);
+  transform: translateY(-4px);
+}
+
+.contactCardIconWrapper {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: rgba(16, 185, 129, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactCardIcon {
+  font-size: 1.25rem;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.contactCardLabel {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--text-secondary);
+}
+
+.contactCardValue {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  word-break: break-all;
+  text-align: center;
+}
+
+.contactCardAction {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin-top: 0.25rem;
+}
+
+.cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--accent);
+  color: #ffffff;
+  padding: 1rem 2.5rem;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+  margin-top: 0.5rem;
+}
+
+.cta:hover {
+  opacity: 0.85;
+}
+
+.contactReply {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}

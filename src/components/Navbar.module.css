@@ -26,9 +26,9 @@
 }
 
 .link {
-  color: var(--text-secondary);
+  color: var(--text-primary);
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 0.95rem;
   transition: color 0.2s ease;
 }

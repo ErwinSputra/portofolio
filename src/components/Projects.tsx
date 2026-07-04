@@ -45,7 +45,7 @@ const projects: Project[] = [
 
 export default function Projects() {
   return (
-    <div className={styles.wrapper}>
+    <div id="projects" className={styles.wrapper}>
       <div className={styles.bgShapes} aria-hidden="true">
         <svg
           className={styles.shape1}
@@ -70,7 +70,7 @@ export default function Projects() {
           />
         </svg>
       </div>
-      <section id="projects" className={styles.section}>
+      <section className={styles.section}>
         <h2 className={styles.heading}>Projects</h2>
         <div className={styles.grid}>
           {projects.map((project) => (
