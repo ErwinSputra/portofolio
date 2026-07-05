@@ -18,7 +18,7 @@ const projects: Project[] = [
   {
     title: "Remote Job Board",
     description:
-      "A full-stack job board platform where employers can post jobs and candidates can apply. Built with Next.js, Supabase, and Stripe for premium listings.",
+      "A full-stack job board where employers post and manage listings with tiered subscriptions. Features Google OAuth, an employer dashboard, and saved jobs for candidates.",
     technologies: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "Stripe"],
     links: {
       github: "https://github.com/ErwinSputra/remote-job-board",
@@ -91,7 +91,6 @@ export default function Projects() {
                       />
                     </div>
                   )}
-                  <span className={styles.liveBadge}>● Live</span>
                   <h3 className={styles.cardTitle}>{project.title}</h3>
                   <p className={styles.cardDescription}>
                     {project.description}
